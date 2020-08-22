@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link rel="stylesheet" href="/css/index.css" />
+    </head>
+    <body style="background-color: rgb(207, 10, 53);">
+        <div class="form-box">
+            <form action="/acc/users" method="POST"  class="form-input" >
+
+                <i class="fa fa-address-card" aria-hidden="true"></i>
+                <input id="email" type="email" placeholder="E-mail" name="email" required>
+                <br>
+                <i class="fa fa-user" aria-hidden="true" ></i>
+                <input id="username" type="text" placeholder="Username" name="username" required>
+                <br>
+                <i class="fa fa-user-secret" aria-hidden="true"></i>
+                <input id="password" type="password" placeholder="Password" name="password" required>
+                <br>
+                <button id="register-btn" type="submit">Register</button>
+              </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
