@@ -1,0 +1,23 @@
+{
+  "name": "new-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushi019/new-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushi019/new-login/issues"
+  },
+  "homepage": "https://github.com/kaushi019/new-login#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
