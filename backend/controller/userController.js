@@ -41,8 +41,7 @@ exports.findAll=(req,res)=>{
             });
         });
 };
-
-exports.findOne = (req, res) => {
+exports.findone = (req, res) => {
     User.findById(req.params.id)
         .then((user)=>{
             if(!user){

@@ -1,7 +1,12 @@
+body{
+    background-color:rgb(221, 11, 57);
+}
+
 .form-box{
-    width: 40%;
+    width: 50%;
     margin-top: 30px;
     margin-left: 385px;
+    height: 500px;
     position: relative;
     background: white;
     padding: 30px;
@@ -16,10 +21,10 @@ input{
     margin-left: 8px;
     align-items: center;
     text-align: center;
-    height:40px;
-    width:55%;
-    margin-top: 20px;
+    margin-top: 17px;
     border: 0.7px solid rgb(0, 0, 0);
+    height: 35px;
+    width: 50%;
     border-radius: 9px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(219, 211, 213, 0.932), 0 6px 20px 0 rgba(231, 225, 228, 0.884);
@@ -27,15 +32,37 @@ input{
 button{
     border: 1px solid rgba(238, 82, 121, 0.932);
     border-radius: 8px;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: rgb(240, 34, 96);
     color: white;
     padding: 8px 13px;
     text-align: center;
-    width: 25%;
+    width: fit-content;
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(238, 82, 121, 0.932), 0 6px 20px 0 rgba(241, 238, 238, 0.884);
+    box-shadow: 0 4px 8px 0 rgba(238, 82, 121, 0.932), 0 6px 20px 0 rgba(255, 54, 104, 0.884);
+}
+.btn-group{
+    align-content: center;
+    align-items: center;
+    padding-left: 210px;
+}
+.form-2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+#login-form{
+    margin-top:30px;
+    margin-left: 100px;
+    width: 75%;
+    display: none;
+}
+#register-form{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 75%;
+    display: block;
 }

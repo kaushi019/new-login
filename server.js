@@ -25,8 +25,3 @@ app.use("/users",require('./backend/routes/routes'));
 app.get('/',function(req,res){
     res.sendFile(__dirname+'/frontend/html/index.html');
 });
-
-// app.post('/users', (req, res) => {
-//     console.log(req.body);
-//     res.json(req.body);
-//   });
